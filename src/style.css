@@ -13,18 +13,30 @@
   font-size: 60px;
   margin-top: 40px;
   margin-bottom: 30px;
-  margin-left: 24px;
+  margin-left: 90px;
+  font-weight: 400;
+  color: #0a0c0a;
+  text-shadow: 2px 2px 5px rgb(144, 169, 194);
 }
 
 .main-content {
   display: flex;
-  gap: 5rem;
+  gap: 4rem;
   margin-left: 90px;
+  width: 100%;
+}
+
+.display-all {
+  border: 2px solid rgb(82, 81, 81);
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px 5px rgb(139, 141, 141);
 }
 
 .display {
   display: flex;
-  width: 65%;
 }
 
 .display h2 {
@@ -32,9 +44,25 @@
 }
 
 #reflesh {
-  margin-left: 145px;
-  height: 25px;
-  width: 25%;
+  margin-left: 300px;
+  margin-top: 23px;
+  height: 28px;
+  width: 20%;
+  transition-duration: 0.4s;
+}
+
+#reflesh:hover {
+  background-color: rgb(212, 212, 208);
+  color: rgb(36, 35, 35);
+  border-radius: 6px;
+}
+
+.addScore {
+  border: 2px solid rgb(70, 69, 69);
+  padding-left: 4rem;
+  width: 30%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px 5px rgb(139, 141, 141);
 }
 
 .addScore h2 {
@@ -55,9 +83,7 @@ table {
   max-height: 300px;
   overflow-y: auto;
   overflow-x: hidden;
-  width: 60%;
-
-  /* background-color: #dfd6de; */
+  width: 100%;
 }
 
 li {
@@ -66,18 +92,21 @@ li {
   overflow-y: scroll;
 }
 
-.display-all {
-  flex-direction: column;
-  width: 50%;
-}
-
 .submit-btn {
   width: 60%;
   font-size: 20px;
+  background-color: aqua;
+  border-radius: 5px;
+}
+
+.submit-btn:hover {
+  background-color: #40aac5;
 }
 
 #form input {
   font-size: 20px;
+  margin-bottom: 2rem;
+  gap: 1rem;
 }
 
 #form input::placeholder {
@@ -88,4 +117,61 @@ li {
 
 .odd {
   background-color: #c4bebe;
+}
+
+@media only screen and (max-width: 768px) {
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .main-content {
+    flex: 1 0 100%;
+    max-width: 100%;
+    flex-direction: column;
+    padding-right: 4rem;
+  }
+
+  .display-all,
+  .addScore {
+    width: 100%;
+    margin-right: 10rem;
+    margin-bottom: 5rem;
+  }
+
+  .addScore {
+    margin-top: 30px;
+  }
+
+  #name,
+  #score {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  #submit-btn {
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+
+  .display-items {
+    padding-left: 0;
+  }
+
+  #reflesh {
+    margin-left: 10rem;
+  }
+
+  #form {
+    padding-right: 10rem;
+  }
+
+  #form input {
+    gap: 5px;
+  }
+
+  .main h1 {
+    margin-right: 5rem;
+  }
 }
