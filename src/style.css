@@ -47,10 +47,23 @@ table {
 }
 
 #display-items {
+  margin: 0;
+  border: 2px solid #c9a7c5;
+  border-radius: 5px;
+  list-style-type: none;
+  padding-left: 0;
+  max-height: 300px;
+  overflow-y: auto;
+  overflow-x: hidden;
   width: 60%;
-  border: none;
-  border: 2px solid black;
-  margin-top: 20px;
+
+  /* background-color: #dfd6de; */
+}
+
+li {
+  padding: 4px;
+  color: #0a0c0a;
+  overflow-y: scroll;
 }
 
 .display-all {
@@ -73,12 +86,6 @@ table {
   font-weight: 600;
 }
 
-tr {
-  border: none;
-  background: none;
-}
-
-td {
-  background-color: rgb(224, 220, 220);
-  border: none;
+.odd {
+  background-color: #c4bebe;
 }
