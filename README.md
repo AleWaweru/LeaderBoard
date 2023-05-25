@@ -30,6 +30,9 @@
 
 - I developed a leaderboard using HTML, CSS, JavaScript, and APIs. This project aims to create a simple and intuitive interface that allows users to track their scores and compare their rankings with others.👌
 
+## 🛠️ Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
 <details>
   <summary>Client</summary>
   <ul>
@@ -201,7 +204,7 @@ If you like this project you can leave a star to it.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](https://github.com/AleWaweru/LeaderBoard/blob/Hit-the-API/MIT.md) licensed.
 
 
 
