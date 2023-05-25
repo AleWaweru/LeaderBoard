@@ -88,7 +88,7 @@ Clone this repository to your desired folder:
 Example commands:
 
 ```sh
-  cd todo-list
+  cd LeaderBoard
   git git@github.com:AleWaweru/LeaderBoard.git
 
 ```
