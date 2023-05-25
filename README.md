@@ -1,3 +1,4 @@
+
 <a name="readme-top"></a>
 
 <!-- TABLE OF CONTENTS -->
@@ -5,7 +6,7 @@
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
+  - [🛠️ Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
@@ -19,7 +20,7 @@
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
+- [⭐ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
@@ -27,7 +28,11 @@
 
 # 📖<a>LeaderBoard</a>
 
+- I developed a leaderboard using HTML, CSS, JavaScript, and APIs. This project aims to create a simple and intuitive interface that allows users to track their scores and compare their rankings with others.👌
 
+## 🛠️ Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
 <details>
   <summary>Client</summary>
   <ul>
@@ -44,25 +49,15 @@
 
 
 
-- **Add Score button**
-- **table of Score result**
-- **reflesh button**
-
-
-
+- **Hit The API for post and get data**
+- **Use the ES6 of javascript**
+- **Set up the project using webpack**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
-- N/A
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
@@ -80,7 +75,8 @@ In order to run this project you need:
 Example command:
 
 ```sh
-use a browser
+1.use a browser
+2.use cable internet
 ```
  
 
@@ -106,7 +102,7 @@ Install this project with:
 Example command:
 
 ```sh
-  no installations required
+  npm install
 ```
 
 
@@ -118,7 +114,7 @@ To run the project, execute the following command:
 Example command:
 
 ```sh
-  not required
+ npm run start
 ```
 
 
@@ -130,21 +126,18 @@ To run tests, run the following command:
 Example command:
 
 ```sh
- not required
+npx hint .
+npx eslint .
 ```
 
 
 ### Deployment
 
 You can deploy this project using:
-not yet ready
 
-Example:
+- Render.com
+- Netlify.com
 
-```sh
-not required
-
-```
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -167,10 +160,10 @@ not required
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **SIDEBAR SECTIONS**
-- [ ] **NAVBAR SECTIONS**
-- [ ] **FOOTER SECTIONS**
-- [ ] **LIVE CHAT SECTION**
+- [ ] **Add test using jest**
+- [ ] **Add SIDEBAR SECTIONS**
+- [ ] **Add NAVBAR SECTIONS**
+- [ ] **Add LIVE CHAT SECTION**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -187,7 +180,7 @@ Feel free to check the [issues page](../../issues/).
 
 <!-- SUPPORT -->
 
-## ⭐️ Show your support <a name="support"></a>
+## ⭐ Show your support <a name="support"></a>
 
 If you like this project you can leave a star to it.
 
@@ -197,14 +190,12 @@ If you like this project you can leave a star to it.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse for giving us an opportunity to learn more about Front-End Development.
-I would also like to thank my coding partners Chis and habtamu for the support toward the completion of this project.
+- I would like to thank Microverse for giving us an opportunity to learn more about Front-End Development.
+
+- I would also like to thank my coding partners Chis and habtamu for the support toward the completion of this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
- what technology did I use to build the project?
- where is the source code for the project?
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -213,7 +204,7 @@ I would also like to thank my coding partners Chis and habtamu for the support t
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](https://github.com/AleWaweru/LeaderBoard/blob/Hit-the-API/MIT.md) licensed.
 
 
 
